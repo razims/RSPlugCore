@@ -19,6 +19,13 @@ namespace RSPlugCore.Library.Common
         protected PluginLoader PluginLoader = new PluginLoader();
         public List<PluginManifest> AvailablePlugins => PluginsManifests.Select(LoadFromManifest).ToList();
 
+        public PluginManager()
+        {
+            if (!Directory.Exists(PluginsDirectory))
+                Directory.CreateDirectory(PluginsDirectory);
+        }
+
+
         /// <summary>
         /// Register Plugin Entry Point
         /// </summary>
