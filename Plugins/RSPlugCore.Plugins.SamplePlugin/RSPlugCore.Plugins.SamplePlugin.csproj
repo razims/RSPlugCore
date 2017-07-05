@@ -23,4 +23,6 @@
     </None>
   </ItemGroup>
 
+  <ProjectExtensions><VisualStudio><UserProperties manifest_1json__JSONSchema="" /></VisualStudio></ProjectExtensions>
+
 </Project>
