@@ -1,0 +1,8 @@
+﻿{
+  "Name": "Sample Plugin",
+  "Version": "1.0.0",
+  "HostVersion": "1.0.0",
+  "Description": "Sample Plugin Description",
+  "Filename": "RSPlugCore.Plugins.SamplePlugin.dll",
+  "Order": 1
+}
